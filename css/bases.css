@@ -56,6 +56,12 @@ img {
   padding: 1rem 2rem;
   border: 1px solid var(--boton-rojo);
   border-radius: 0.5rem;
+  transition: transform 0.2s ease-in;
+  font-weight: bold;
+}
+
+.boton:hover {
+  transform: scale(1.1);
 }
 
 .llamada__boton {
