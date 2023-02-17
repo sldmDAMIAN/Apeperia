@@ -1,0 +1,56 @@
+:root {
+  --fuentePrincipal: "Montserrat", sans-serif;
+  --fuenteSecundaria: "Open Sans", sans-serif;
+  --primario: #;
+  --secundario: #;
+  --grisClaro: #e1e1e1;
+  --gris: #3b3b3b;
+  --azulOscuro: #0d60ad;
+  --blanco: #ffffff;
+  --negro: #000000;
+  --separacion: 5rem;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1 rem = 10px */
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: var(--fuentePrincipal);
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/** Globales **/
+.contenedor {
+  width: min(90%, 120rem);
+  margin: 0 auto;
+}
+h1,
+h2,
+h3 {
+  font-weight: 900;
+  font-family: var(--fuenteSecundaria);
+  margin: calc(var(--secundario) / 2) 0;
+}
+h1 {
+  font-size: 4.4rem;
+}
+h2 {
+  font-size: 3.6rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
